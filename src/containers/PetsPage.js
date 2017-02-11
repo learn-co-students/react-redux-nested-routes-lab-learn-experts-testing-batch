@@ -23,7 +23,6 @@ class PetsPage extends Component {
         </ul>
         <Link to="/pets/new">Add a Pet</Link>
       </div>
-
       { this.props.children }
     </div>
   )
